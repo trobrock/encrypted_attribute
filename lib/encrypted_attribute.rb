@@ -1,7 +1,7 @@
 require "encrypted_attribute/version"
 
-require 'activesupport/concern'
-require 'activesupport/message_encryptor'
+require 'active_support/concern'
+require 'active_support/message_encryptor'
 
 module EncryptedAttribute
   extend ActiveSupport::Concern
